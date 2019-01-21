@@ -8,8 +8,9 @@
 </head>
 <body>
 <h1>${message}</h1>
-<form action="deposit" method="get">
-	Enter Account Number: <input name="accountNumber"/><br/>
+<form action="transferMoney" method="get">
+	Enter Sender Account Number: <input name="senderNumber"/><br/>
+	Enter Receiver Account Number: <input name="receiverNumber"/><br/>
 	Enter Amount : <input name="amount"/><br/>
 	<input type="submit"/>
 </form>
